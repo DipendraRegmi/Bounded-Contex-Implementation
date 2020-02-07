@@ -8,3 +8,4 @@ Executor:: which is a collection of contexts and a thread, one doc is active at 
            Executor picks up a context and starts executing the tasks in the context.
            
 Context can be signaled, we can context switch the context, this behavior can be used to simulate the switch between docs.
+Context can create another context, like opening a new doc, from current doc.
